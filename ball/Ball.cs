@@ -2,10 +2,10 @@ using System.Diagnostics;
 using Godot;
 using HLNC;
 
-namespace SimpleWorld {
+namespace BouncingBalls {
 
-	[NetworkScenes("res://playable_character.tscn")]
-	public partial class PlayableCharacter : NetworkNode3D
+	[NetworkScenes("res://ball/ball.tscn")]
+	public partial class Ball : NetworkNode3D
 	{
 
 		[Export]

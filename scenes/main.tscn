@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://ckb8aaned12dp"]
 
-[ext_resource type="Script" path="res://GameManager.gd" id="1_uij1a"]
+[ext_resource type="Script" path="res://scenes/GameManager.gd" id="1_uij1a"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1l17f"]
 

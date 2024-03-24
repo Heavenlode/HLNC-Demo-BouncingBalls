@@ -5,8 +5,7 @@ func _ready() -> void:
 		NetworkRunner.PlayerConnected.connect(_on_player_connect)
 
 func _on_player_connect(peerId):
-	print("Player connected: ", peerId)
-	var character_scene = load("res://playable_character.tscn")
+	var character_scene = load("res://ball/ball.tscn")
 	var character = character_scene.instantiate()
 	character.InputAuthority = peerId
 	add_child(character)

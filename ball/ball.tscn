@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://wvnpeybsva6b"]
 
-[ext_resource type="Script" path="res://PlayableCharacter.cs" id="1_oydju"]
+[ext_resource type="Script" path="res://ball/Ball.cs" id="1_oydju"]
 [ext_resource type="Script" path="res://addons/HLNC/NetworkTransform.cs" id="2_t47eb"]
 [ext_resource type="Script" path="res://addons/HLNC/NetworkVisibility.cs" id="2_whe68"]
 
@@ -9,7 +9,7 @@ resource_local_to_scene = true
 
 [sub_resource type="SphereMesh" id="SphereMesh_gsi7k"]
 
-[node name="PlayableCharacter" type="Node3D" node_paths=PackedStringArray("mesh")]
+[node name="Ball" type="Node3D" node_paths=PackedStringArray("mesh")]
 script = ExtResource("1_oydju")
 mesh = NodePath("MeshInstance3D")
 
